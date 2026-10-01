@@ -11,8 +11,8 @@ Two V2 boards use microphone capture at 8 kHz, pair averaging to 4 kHz, and
 4-bit unsigned PCM. Each 19-byte radio packet holds 32 samples, requiring about
 125 packets per second. This deliberately sacrifices audio bandwidth and resolution.
 Actual throughput, sample timing, microphone gain, jitter and intelligibility must
-be tested on the hardware. MakeCode JavaScript/radio overhead may prevent sustained
-realtime delivery; a native radio transmit/receive loop would then be needed.
+be tested on the hardware. Capture, radio transmit/receive and playback run in the
+native extension, because MakeCode's JavaScript radio loop cannot sustain this rate.
 
 ## Install
 

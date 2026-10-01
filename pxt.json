@@ -1,6 +1,6 @@
 {
     "name": "microbit-voice",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Experimental V2 microphone PCM capture and radio voice playback",
     "license": "MIT",
     "dependencies": { "core": "*" },
