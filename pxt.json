@@ -1,0 +1,10 @@
+{
+    "name": "microbit-voice",
+    "version": "0.0.1",
+    "description": "Experimental V2 microphone PCM capture and radio voice playback",
+    "license": "MIT",
+    "dependencies": { "core": "*" },
+    "files": ["voice.ts", "voice.cpp", "voice_core.h"],
+    "public": true,
+    "supportedTargets": ["microbit"]
+}
